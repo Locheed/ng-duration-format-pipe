@@ -13,7 +13,7 @@ You can use arguments 'ms' or 's' to specify type of a value.
 
 There is no day/month/year options. Hours will go past 24 hours.
 
-## Combability
+## Compatibility
 
 This pipe does work with a IE11 / Edge browsers.
 These browser has a open bug that prevents use of a Angular 2 Date pipe.
