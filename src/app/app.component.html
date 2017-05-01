@@ -1,6 +1,18 @@
-<h1>
-  Duration given in milliseconds: {{test_value_ms | durationFormat: 'ms'}}
-</h1>
-<h1>
-  Duration given in seconds: {{test_value_seconds |durationFormat: 's'}}
-</h1>
+<h1>Format 'hhmmss'</h1>
+<p>
+  Duration given in milliseconds: {{test_value_ms | durationFormat: 'ms':'hhmmss'}}
+</p>
+<p>
+  Duration given in seconds: {{test_value_seconds | durationFormat: 's':'hhmmss'}}
+</p>
+
+
+<h1>Format 'ddhhmmss'</h1>
+<p>
+  Duration given in milliseconds: {{test_value_ms | durationFormat: 'ms':'ddhhmmss'}}
+</p>
+
+<h1>Format 'ddhhmmssLong'</h1>
+<p>
+  Duration given in seconds: {{test_value_seconds | durationFormat: 's':'ddhhmmssLong'}}
+</p>
